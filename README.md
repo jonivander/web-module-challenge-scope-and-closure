@@ -43,7 +43,7 @@ Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
 
-	Answer 1
+	A closure allows a child/inner function to access variables "upstream" from it, i.e. parent functions above it that have already been accessed, called, or closed. This way, one can access code that has already been identified again later down the stream, but not up the stream. 
 
 2. Study the following code, then answer the questions below.
 
@@ -67,10 +67,16 @@ dansRoll();
 
 a. Where is closure used in this code? How can you tell?
 
-	
+	The closure is 
 
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+	
+
 c. What is the lexical scope of `newRoll`? 
+
+
+
 
 ### Task 2c - Exit Ticket
 
